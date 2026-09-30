@@ -1,0 +1,28 @@
+Cenário
+Uma oficina mecânica descja informatizar o sistema de gerenciamento de boxes e ordens de serviço.
+Cada mecânico possui as seguintes informações: nome, CPF, especialidade e telefone.
+Cada box possui as seguintes informações: número, tipo de serviço permitido, capacidade máxima de veículos e localização.
+Cada box está vinculado a um mecânico responsável.
+Para cada ordem de serviço, devem ser armazendas informações como: código, nome do cliente, modelo do veículo, placa do veículo, data, status da ordem (aberta, em execução, finalizada), valor estimado.
+O sistema também deve permitir armazenar informações do serviço associado a cada ordem
+O serviço possui as seguintes informações: nome, tempo estimado, valor e categoria.
+Cada box pode receber várias ordens de serviço, contanto que estas ordens estejam associadas ao mesmo tipo de serviço.
+
+
+
+Funcionalidades do Sistema
+1. Cadastrar ordem de serviço
+2. Associar um mecânico a um box
+3. Atribuir ordem de serviço a um box
+4. Exibir todas as ordens atribuídas a um box específico. Informe também o total de ordens ao final.
+5. Informar a quantidade total de ordens finalizadas por cada box
+6. Buscar ordens por status. É necessário exibir os detalhes da ordem, incluindo box e mecânico.
+7. Exibir os detalhes completos de uma ordem específica
+O usuário deve acessar essas funcionalidades através de um menu.
+Faça un método na classe main para criar 3 mecânicos e 3 boxes assim que o programa
+for executado.
+Regras de negócio
+1. Um mecânico pode ser responsável por apenas um box.
+2. Um box pode possuir várias ordens de serviço, mas a ordem não depende do box.
+3. Ordens com status "aberta"não possem box atribuído.
+4. Ordens com status "finalizada"precisam manter a informação do box utilizado. Po-rém, o box não precisa manter a informação desta ordem.
