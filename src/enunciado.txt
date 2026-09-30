@@ -1,4 +1,5 @@
-Cenário
+#Cenário
+
 Uma oficina mecânica descja informatizar o sistema de gerenciamento de boxes e ordens de serviço.
 Cada mecânico possui as seguintes informações: nome, CPF, especialidade e telefone.
 Cada box possui as seguintes informações: número, tipo de serviço permitido, capacidade máxima de veículos e localização.
@@ -10,7 +11,8 @@ Cada box pode receber várias ordens de serviço, contanto que estas ordens este
 
 
 
-Funcionalidades do Sistema
+#Funcionalidades do Sistema
+
 1. Cadastrar ordem de serviço
 2. Associar um mecânico a um box
 3. Atribuir ordem de serviço a um box
